@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h2 {
+        color: salmon;
+        font-weight: bolder;
+      }
+      h3 {
+        color: steelblue;
+      }
+      button {
+        background-color: rgb(222, 232, 235);
+        color: darkblue;
+        border: none;
+        margin: 5px;
+      }
+    </style>
+    <script src="./apptest.js" charset="UTF-8"></script>
+  </head>
+  <body>
+    <h2>To-do List App</h2>
+    <hr />
+
+    <div id="btnContainer">
+      <input type="text" id="todoText" />
+      <input type="date" id="todoDate" />
+      <input type="time" id="todoTime" />
+      <button id="btnSave">저장</button>
+    </div>
+
+    <hr />
+
+    <h3>To-do List 🧐</h3>
+
+    <div id="container"></div>
+  </body>
+</html>
